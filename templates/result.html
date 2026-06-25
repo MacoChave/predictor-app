@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ prediction.team_a }} vs {{ prediction.team_b }} — Predicción</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0d1f12;
+      color: #e8f5e9;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 680px; margin: 0 auto; }
+
+    /* Header */
+    .matchup {
+      text-align: center;
+      padding: 2rem 1rem 1.5rem;
+    }
+    .badge {
+      display: inline-block;
+      background: #c8102e;
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 99px;
+      margin-bottom: 1rem;
+    }
+    .teams-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .team-name {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #fff;
+    }
+    .team-rank {
+      font-size: 0.78rem;
+      color: #6dbf7e;
+      margin-top: 2px;
+    }
+    .home-tag {
+      font-size: 0.65rem;
+      background: #ffd700;
+      color: #0d1f12;
+      padding: 1px 7px;
+      border-radius: 99px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-left: 4px;
+      vertical-align: middle;
+    }
+    .vs-sep {
+      font-size: 1.2rem;
+      font-weight: 900;
+      color: #ffd700;
+    }
+
+    /* Cards */
+    .card {
+      background: #1a2e1f;
+      border: 1px solid #2e5235;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .card-title {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #4a8050;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
+    }
+
+    /* Resultado más probable */
+    .outcome-label {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: #ffd700;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Barras de probabilidad */
+    .prob-row {
+      display: grid;
+      grid-template-columns: 110px 1fr 55px;
+      gap: 0.5rem;
+      align-items: center;
+      margin-bottom: 0.6rem;
+    }
+    .prob-label { font-size: 0.85rem; color: #c8e6c9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .bar-track {
+      background: #0d1f12;
+      border-radius: 99px;
+      height: 10px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      border-radius: 99px;
+      transition: width 0.6s ease;
+    }
+    .bar-a { background: linear-gradient(90deg, #006341, #00a86b); }
+    .bar-d { background: linear-gradient(90deg, #7b6000, #ffd700); }
+    .bar-b { background: linear-gradient(90deg, #8b0000, #c8102e); }
+    .prob-pct { font-size: 0.85rem; font-weight: 700; color: #fff; text-align: right; }
+
+    /* Goles esperados */
+    .goals-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .goal-box { text-align: center; }
+    .goal-num {
+      font-size: 2.2rem;
+      font-weight: 900;
+      color: #ffd700;
+      line-height: 1;
+    }
+    .goal-team { font-size: 0.78rem; color: #6dbf7e; margin-top: 4px; }
+    .goal-sep { font-size: 1.5rem; color: #3a5940; font-weight: 900; }
+
+    /* Marcador más probable */
+    .score-hero {
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+    .score-big {
+      font-size: 3rem;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: 4px;
+    }
+
+    /* Top marcadores */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    thead th {
+      color: #4a8050;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 0 0 0.5rem;
+      text-align: left;
+    }
+    thead th:last-child { text-align: right; }
+    tbody tr { border-top: 1px solid #1e3823; }
+    tbody td { padding: 0.45rem 0; color: #c8e6c9; }
+    tbody td:last-child { text-align: right; color: #6dbf7e; font-weight: 600; }
+    tbody tr:first-child td { color: #ffd700; }
+    tbody tr:first-child td:last-child { color: #ffd700; }
+
+    /* H2H */
+    .h2h-stats {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .h2h-stat-num {
+      font-size: 1.6rem;
+      font-weight: 800;
+    }
+    .h2h-stat-num.green { color: #00a86b; }
+    .h2h-stat-num.gold { color: #ffd700; }
+    .h2h-stat-num.red { color: #c8102e; }
+    .h2h-stat-label { font-size: 0.72rem; color: #4a8050; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    .h2h-matches { max-height: 220px; overflow-y: auto; }
+    .h2h-match {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      padding: 0.35rem 0;
+      border-top: 1px solid #1e3823;
+      gap: 0.5rem;
+    }
+    .h2h-comp { color: #4a8050; font-size: 0.72rem; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .h2h-score { font-weight: 700; color: #fff; white-space: nowrap; }
+    .h2h-score.win-a { color: #00a86b; }
+    .h2h-score.win-b { color: #c8102e; }
+    .h2h-score.draw { color: #ffd700; }
+
+    /* Confianza */
+    .confidence {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.8rem;
+      padding: 4px 12px;
+      border-radius: 99px;
+      font-weight: 600;
+    }
+    .conf-alta { background: rgba(0,168,107,0.15); color: #00a86b; border: 1px solid #006341; }
+    .conf-media { background: rgba(255,215,0,0.1); color: #ffd700; border: 1px solid #7b6000; }
+    .conf-baja { background: rgba(200,16,46,0.1); color: #ff6b82; border: 1px solid #c8102e; }
+
+    /* Back */
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 1.5rem;
+      color: #4a8050;
+      font-size: 0.85rem;
+      text-decoration: none;
+    }
+    .back-link:hover { color: #6dbf7e; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="matchup">
+      <div class="badge">Mundial 2026 — Predicción</div>
+      <div class="teams-header">
+        <div class="team-box">
+          <div class="team-name">
+            {{ prediction.team_a }}
+            {% if team_a_is_home %}<span class="home-tag">Local</span>{% endif %}
+          </div>
+          {% if stats.rank_a %}<div class="team-rank">FIFA #{{ stats.rank_a }}</div>{% endif %}
+        </div>
+        <div class="vs-sep">VS</div>
+        <div class="team-box">
+          <div class="team-name">
+            {{ prediction.team_b }}
+            {% if not team_a_is_home %}<span class="home-tag">Local</span>{% endif %}
+          </div>
+          {% if stats.rank_b %}<div class="team-rank">FIFA #{{ stats.rank_b }}</div>{% endif %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Probabilidades -->
+    <div class="card">
+      <div class="card-title">Probabilidades</div>
+      <div class="outcome-label">{{ prediction.outcome_label }}</div>
+
+      {% set pct_a = (prediction.prob_win_a * 100) | round(1) %}
+      {% set pct_d = (prediction.prob_draw * 100) | round(1) %}
+      {% set pct_b = (prediction.prob_win_b * 100) | round(1) %}
+
+      <div class="prob-row">
+        <div class="prob-label">{{ prediction.team_a }}</div>
+        <div class="bar-track"><div class="bar-fill bar-a" style="width: {{ pct_a }}%"></div></div>
+        <div class="prob-pct">{{ pct_a }}%</div>
+      </div>
+      <div class="prob-row">
+        <div class="prob-label">Empate</div>
+        <div class="bar-track"><div class="bar-fill bar-d" style="width: {{ pct_d }}%"></div></div>
+        <div class="prob-pct">{{ pct_d }}%</div>
+      </div>
+      <div class="prob-row">
+        <div class="prob-label">{{ prediction.team_b }}</div>
+        <div class="bar-track"><div class="bar-fill bar-b" style="width: {{ pct_b }}%"></div></div>
+        <div class="prob-pct">{{ pct_b }}%</div>
+      </div>
+    </div>
+
+    <!-- Goles esperados + Marcador probable -->
+    <div class="card">
+      <div class="card-title">Goles esperados</div>
+      <div class="goals-row">
+        <div class="goal-box">
+          <div class="goal-num">{{ "%.2f"|format(prediction.expected_goals_a) }}</div>
+          <div class="goal-team">{{ prediction.team_a }}</div>
+        </div>
+        <div class="goal-sep">—</div>
+        <div class="goal-box">
+          <div class="goal-num">{{ "%.2f"|format(prediction.expected_goals_b) }}</div>
+          <div class="goal-team">{{ prediction.team_b }}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Marcador más probable</div>
+      <div class="score-hero">
+        <div class="score-big">{{ prediction.most_likely_score[0] }} – {{ prediction.most_likely_score[1] }}</div>
+      </div>
+    </div>
+
+    <!-- Top 5 marcadores -->
+    <div class="card">
+      <div class="card-title">Top 5 marcadores</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Resultado</th>
+            <th>Descripción</th>
+            <th>Prob.</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for ga, gb, prob in top_scores %}
+            <tr>
+              <td><strong>{{ ga }} – {{ gb }}</strong></td>
+              <td>
+                {% if ga > gb %}Victoria {{ prediction.team_a }}
+                {% elif ga < gb %}Victoria {{ prediction.team_b }}
+                {% else %}Empate{% endif %}
+              </td>
+              <td>{{ (prob * 100) | round(1) }}%</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- H2H -->
+    <div class="card">
+      <div class="card-title">
+        Historial H2H
+        ({{ stats.total }} partido{{ 's' if stats.total != 1 else '' }})
+        &nbsp;
+        {% if prediction.confidence == 'Alta' %}
+          <span class="confidence conf-alta">Confianza Alta</span>
+        {% elif prediction.confidence == 'Media' %}
+          <span class="confidence conf-media">Confianza Media</span>
+        {% else %}
+          <span class="confidence conf-baja">Confianza Baja</span>
+        {% endif %}
+      </div>
+
+      {% if stats.total > 0 %}
+        <div class="h2h-stats">
+          <div>
+            <div class="h2h-stat-num green">{{ stats.wins_a }}</div>
+            <div class="h2h-stat-label">{{ prediction.team_a }}</div>
+          </div>
+          <div>
+            <div class="h2h-stat-num gold">{{ stats.draws }}</div>
+            <div class="h2h-stat-label">Empates</div>
+          </div>
+          <div>
+            <div class="h2h-stat-num red">{{ stats.wins_b }}</div>
+            <div class="h2h-stat-label">{{ prediction.team_b }}</div>
+          </div>
+        </div>
+
+        <div class="h2h-matches">
+          {% for m in stats.matches %}
+            {% if m.home_team == prediction.team_a %}
+              {% set ga = m.home_goals %}{% set gb = m.away_goals %}
+            {% else %}
+              {% set ga = m.away_goals %}{% set gb = m.home_goals %}
+            {% endif %}
+            {% if ga > gb %}{% set cls = 'win-a' %}
+            {% elif ga < gb %}{% set cls = 'win-b' %}
+            {% else %}{% set cls = 'draw' %}{% endif %}
+            <div class="h2h-match">
+              <div class="h2h-comp">{{ m.competition }} · {{ m.date.year }}</div>
+              <div class="h2h-score {{ cls }}">{{ m.home_team }} {{ m.home_goals }}–{{ m.away_goals }} {{ m.away_team }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <p style="color:#4a8050; font-size:0.85rem;">Sin encuentros directos registrados. La predicción usa valores por defecto.</p>
+      {% endif %}
+    </div>
+
+    <a href="/" class="back-link">← Nueva predicción</a>
+  </div>
+</body>
+</html>

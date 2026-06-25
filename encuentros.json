@@ -1,0 +1,1964 @@
+[
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 14,
+		"Equipo 2": "Sudáfrica",
+		"Ranking Equipo 2": 58,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2010)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 14,
+		"Equipo 2": "Sudáfrica",
+		"Ranking Equipo 2": 58,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2000)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 14,
+		"Equipo 2": "Sudáfrica",
+		"Ranking Equipo 2": 58,
+		"Gol Equipo 1": 4,
+		"Gol Equipo 2": 2,
+		"Competición": "Amistoso (1993)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 14,
+		"Equipo 2": "Corea del Sur",
+		"Ranking Equipo 2": 23,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 14,
+		"Equipo 2": "República Checa",
+		"Ranking Equipo 2": 34,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Sudáfrica",
+		"Ranking Equipo 1": 58,
+		"Equipo 2": "Corea del Sur",
+		"Ranking Equipo 2": 23,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Sudáfrica",
+		"Ranking Equipo 1": 58,
+		"Equipo 2": "República Checa",
+		"Ranking Equipo 2": 34,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Corea del Sur",
+		"Ranking Equipo 1": 23,
+		"Equipo 2": "República Checa",
+		"Ranking Equipo 2": 34,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2024)"
+	},
+	{
+		"Equipo 1": "Corea del Sur",
+		"Ranking Equipo 1": 23,
+		"Equipo 2": "República Checa",
+		"Ranking Equipo 2": 34,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2016)"
+	},
+	{
+		"Equipo 1": "Corea del Sur",
+		"Ranking Equipo 1": 23,
+		"Equipo 2": "República Checa",
+		"Ranking Equipo 2": 34,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 5,
+		"Competición": "Amistoso (2001)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 49,
+		"Equipo 2": "Bosnia y Herzegovina",
+		"Ranking Equipo 2": 71,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 49,
+		"Equipo 2": "Qatar",
+		"Ranking Equipo 2": 37,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 49,
+		"Equipo 2": "Suiza",
+		"Ranking Equipo 2": 19,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Bosnia y Herzegovina",
+		"Ranking Equipo 1": 71,
+		"Equipo 2": "Qatar",
+		"Ranking Equipo 2": 37,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Bosnia y Herzegovina",
+		"Ranking Equipo 1": 71,
+		"Equipo 2": "Suiza",
+		"Ranking Equipo 2": 19,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Qatar",
+		"Ranking Equipo 1": 37,
+		"Equipo 2": "Suiza",
+		"Ranking Equipo 2": 19,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Brasil",
+		"Ranking Equipo 1": 5,
+		"Equipo 2": "Marruecos",
+		"Ranking Equipo 2": 13,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Amistoso Internacional (2023)"
+	},
+	{
+		"Equipo 1": "Brasil",
+		"Ranking Equipo 1": 5,
+		"Equipo 2": "Marruecos",
+		"Ranking Equipo 2": 13,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Mundial de la FIFA (1998)"
+	},
+	{
+		"Equipo 1": "Brasil",
+		"Ranking Equipo 1": 5,
+		"Equipo 2": "Marruecos",
+		"Ranking Equipo 2": 13,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso Internacional (1997)"
+	},
+	{
+		"Equipo 1": "Brasil",
+		"Ranking Equipo 1": 5,
+		"Equipo 2": "Haiti",
+		"Ranking Equipo 2": 90,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Brasil",
+		"Ranking Equipo 1": 5,
+		"Equipo 2": "Escocia",
+		"Ranking Equipo 2": 39,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Marruecos",
+		"Ranking Equipo 1": 13,
+		"Equipo 2": "Haiti",
+		"Ranking Equipo 2": 90,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Marruecos",
+		"Ranking Equipo 1": 13,
+		"Equipo 2": "Escocia",
+		"Ranking Equipo 2": 39,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Haiti",
+		"Ranking Equipo 1": 90,
+		"Equipo 2": "Escocia",
+		"Ranking Equipo 2": 39,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Paraguay",
+		"Ranking Equipo 2": 52,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Australia",
+		"Ranking Equipo 2": 24,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Turquía",
+		"Ranking Equipo 2": 40,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2014)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Turquía",
+		"Ranking Equipo 2": 40,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2010)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Turquía",
+		"Ranking Equipo 2": 40,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Confederaciones (2003)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Australia",
+		"Ranking Equipo 2": 24,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Turquía",
+		"Ranking Equipo 2": 40,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Australia",
+		"Ranking Equipo 1": 24,
+		"Equipo 2": "Turquía",
+		"Ranking Equipo 2": 40,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Alemania",
+		"Ranking Equipo 1": 16,
+		"Equipo 2": "Curazao",
+		"Ranking Equipo 2": 91,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Alemania",
+		"Ranking Equipo 1": 16,
+		"Equipo 2": "Costa de Marfil",
+		"Ranking Equipo 2": 38,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Alemania",
+		"Ranking Equipo 1": 16,
+		"Equipo 2": "Ecuador",
+		"Ranking Equipo 2": 31,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Mundial de la FIFA (2006)"
+	},
+	{
+		"Equipo 1": "Alemania",
+		"Ranking Equipo 1": 16,
+		"Equipo 2": "Ecuador",
+		"Ranking Equipo 2": 31,
+		"Gol Equipo 1": 4,
+		"Gol Equipo 2": 2,
+		"Competición": "Amistoso (2013)"
+	},
+	{
+		"Equipo 1": "Curazao",
+		"Ranking Equipo 1": 91,
+		"Equipo 2": "Costa de Marfil",
+		"Ranking Equipo 2": 38,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Curazao",
+		"Ranking Equipo 1": 91,
+		"Equipo 2": "Ecuador",
+		"Ranking Equipo 2": 31,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Costa de Marfil",
+		"Ranking Equipo 1": 38,
+		"Equipo 2": "Ecuador",
+		"Ranking Equipo 2": 31,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Países Bajos",
+		"Ranking Equipo 1": 7,
+		"Equipo 2": "Japón",
+		"Ranking Equipo 2": 18,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Países Bajos",
+		"Ranking Equipo 1": 7,
+		"Equipo 2": "Suecia",
+		"Ranking Equipo 2": 26,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Países Bajos",
+		"Ranking Equipo 1": 7,
+		"Equipo 2": "Túnez",
+		"Ranking Equipo 2": 41,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Japón",
+		"Ranking Equipo 1": 18,
+		"Equipo 2": "Suecia",
+		"Ranking Equipo 2": 26,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Japón",
+		"Ranking Equipo 1": 18,
+		"Equipo 2": "Túnez",
+		"Ranking Equipo 2": 41,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Suecia",
+		"Ranking Equipo 1": 26,
+		"Equipo 2": "Túnez",
+		"Ranking Equipo 2": 41,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Bélgica",
+		"Ranking Equipo 1": 3,
+		"Equipo 2": "Egipto",
+		"Ranking Equipo 2": 36,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Bélgica",
+		"Ranking Equipo 1": 3,
+		"Equipo 2": "Irán",
+		"Ranking Equipo 2": 20,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Bélgica",
+		"Ranking Equipo 1": 3,
+		"Equipo 2": "Nueva Zelanda",
+		"Ranking Equipo 2": 104,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Egipto",
+		"Ranking Equipo 1": 36,
+		"Equipo 2": "Irán",
+		"Ranking Equipo 2": 20,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Egipto",
+		"Ranking Equipo 1": 36,
+		"Equipo 2": "Nueva Zelanda",
+		"Ranking Equipo 2": 104,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Irán",
+		"Ranking Equipo 1": 20,
+		"Equipo 2": "Nueva Zelanda",
+		"Ranking Equipo 2": 104,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "España",
+		"Ranking Equipo 1": 8,
+		"Equipo 2": "Cabo Verde",
+		"Ranking Equipo 2": 65,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "España",
+		"Ranking Equipo 1": 8,
+		"Equipo 2": "Arabia Saudita",
+		"Ranking Equipo 2": 53,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "España",
+		"Ranking Equipo 1": 8,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Confederaciones (2013)"
+	},
+	{
+		"Equipo 1": "España",
+		"Ranking Equipo 1": 8,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2013)"
+	},
+	{
+		"Equipo 1": "España",
+		"Ranking Equipo 1": 8,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2005)"
+	},
+	{
+		"Equipo 1": "España",
+		"Ranking Equipo 1": 8,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Mundial de la FIFA (1990)"
+	},
+	{
+		"Equipo 1": "Cabo Verde",
+		"Ranking Equipo 1": 65,
+		"Equipo 2": "Arabia Saudita",
+		"Ranking Equipo 2": 53,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Cabo Verde",
+		"Ranking Equipo 1": 65,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Arabia Saudita",
+		"Ranking Equipo 1": 53,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Francia",
+		"Ranking Equipo 1": 2,
+		"Equipo 2": "Senegal",
+		"Ranking Equipo 2": 17,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Francia",
+		"Ranking Equipo 1": 2,
+		"Equipo 2": "Irak",
+		"Ranking Equipo 2": 58,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Francia",
+		"Ranking Equipo 1": 2,
+		"Equipo 2": "Noruega",
+		"Ranking Equipo 2": 46,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Senegal",
+		"Ranking Equipo 1": 17,
+		"Equipo 2": "Irak",
+		"Ranking Equipo 2": 58,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Senegal",
+		"Ranking Equipo 1": 17,
+		"Equipo 2": "Noruega",
+		"Ranking Equipo 2": 46,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Irak",
+		"Ranking Equipo 1": 58,
+		"Equipo 2": "Noruega",
+		"Ranking Equipo 2": 46,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Argentina",
+		"Ranking Equipo 1": 1,
+		"Equipo 2": "Argelia",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 4,
+		"Gol Equipo 2": 3,
+		"Competición": "Amistoso (2007)"
+	},
+	{
+		"Equipo 1": "Argentina",
+		"Ranking Equipo 1": 1,
+		"Equipo 2": "Austria",
+		"Ranking Equipo 2": 25,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Argentina",
+		"Ranking Equipo 1": 1,
+		"Equipo 2": "Jordania",
+		"Ranking Equipo 2": 71,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Argelia",
+		"Ranking Equipo 1": 43,
+		"Equipo 2": "Austria",
+		"Ranking Equipo 2": 25,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Argelia",
+		"Ranking Equipo 1": 43,
+		"Equipo 2": "Jordania",
+		"Ranking Equipo 2": 71,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Austria",
+		"Ranking Equipo 1": 25,
+		"Equipo 2": "Jordania",
+		"Ranking Equipo 2": 71,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Portugal",
+		"Ranking Equipo 1": 6,
+		"Equipo 2": "RD Congo",
+		"Ranking Equipo 2": 63,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Portugal",
+		"Ranking Equipo 1": 6,
+		"Equipo 2": "Uzbekistán",
+		"Ranking Equipo 2": 64,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Portugal",
+		"Ranking Equipo 1": 6,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "RD Congo",
+		"Ranking Equipo 1": 63,
+		"Equipo 2": "Uzbekistán",
+		"Ranking Equipo 2": 64,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "RD Congo",
+		"Ranking Equipo 1": 63,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Uzbekistán",
+		"Ranking Equipo 1": 64,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Inglaterra",
+		"Ranking Equipo 1": 4,
+		"Equipo 2": "Croacia",
+		"Ranking Equipo 2": 10,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Eurocopa (2021)"
+	},
+	{
+		"Equipo 1": "Inglaterra",
+		"Ranking Equipo 1": 4,
+		"Equipo 2": "Croacia",
+		"Ranking Equipo 2": 10,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "UEFA Nations League (2018)"
+	},
+	{
+		"Equipo 1": "Inglaterra",
+		"Ranking Equipo 1": 4,
+		"Equipo 2": "Croacia",
+		"Ranking Equipo 2": 10,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "UEFA Nations League (2018)"
+	},
+	{
+		"Equipo 1": "Inglaterra",
+		"Ranking Equipo 1": 4,
+		"Equipo 2": "Croacia",
+		"Ranking Equipo 2": 10,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa Mundial de la FIFA (2018)"
+	},
+	{
+		"Equipo 1": "Inglaterra",
+		"Ranking Equipo 1": 4,
+		"Equipo 2": "Croacia",
+		"Ranking Equipo 2": 10,
+		"Gol Equipo 1": 5,
+		"Gol Equipo 2": 1,
+		"Competición": "Eliminatorias Mundial (2009)"
+	},
+	{
+		"Equipo 1": "Inglaterra",
+		"Ranking Equipo 1": 4,
+		"Equipo 2": "Ghana",
+		"Ranking Equipo 2": 68,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Inglaterra",
+		"Ranking Equipo 1": 4,
+		"Equipo 2": "Panamá",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Croacia",
+		"Ranking Equipo 1": 10,
+		"Equipo 2": "Ghana",
+		"Ranking Equipo 2": 68,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Croacia",
+		"Ranking Equipo 1": 10,
+		"Equipo 2": "Panamá",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Ghana",
+		"Ranking Equipo 1": 68,
+		"Equipo 2": "Panamá",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": null,
+		"Gol Equipo 2": null,
+		"Competición": "Sin historial oficial"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa América (Fase de Grupos)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Panamá",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa América (Fase de Grupos)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Bolivia",
+		"Ranking Equipo 2": 84,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa América (Fase de Grupos)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Brasil",
+		"Ranking Equipo 2": 5,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso Internacional"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 5,
+		"Competición": "Amistoso Internacional"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "México",
+		"Ranking Equipo 2": 14,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Concacaf Nations League (Final)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Jamaica",
+		"Ranking Equipo 2": 55,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 1,
+		"Competición": "Concacaf Nations League (Semifinal)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Trinidad y Tobago",
+		"Ranking Equipo 2": 96,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Concacaf Nations League"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Trinidad y Tobago",
+		"Ranking Equipo 2": 96,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 0,
+		"Competición": "Concacaf Nations League"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Alemania",
+		"Ranking Equipo 2": 16,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 3,
+		"Competición": "Amistoso Internacional"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa América (Fase de Grupos)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Panamá",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa América (Fase de Grupos)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Bolivia",
+		"Ranking Equipo 2": 84,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa América (Fase de Grupos)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Brasil",
+		"Ranking Equipo 2": 5,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso Internacional"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 5,
+		"Competición": "Amistoso Internacional"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "México",
+		"Ranking Equipo 2": 14,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Concacaf Nations League (Final)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Jamaica",
+		"Ranking Equipo 2": 55,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 1,
+		"Competición": "Concacaf Nations League (Semifinal)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Trinidad y Tobago",
+		"Ranking Equipo 2": 96,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Concacaf Nations League"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Trinidad y Tobago",
+		"Ranking Equipo 2": 96,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 0,
+		"Competición": "Concacaf Nations League"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Alemania",
+		"Ranking Equipo 2": 16,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 3,
+		"Competición": "Amistoso Internacional"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Bolivia",
+		"Ranking Equipo 2": 84,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 2,
+		"Competición": "Eliminatorias Sudamericanas (2025)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Argentina",
+		"Ranking Equipo 2": 1,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Eliminatorias Sudamericanas (2025)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Venezuela",
+		"Ranking Equipo 2": 44,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Eliminatorias Sudamericanas (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Ecuador",
+		"Ranking Equipo 2": 31,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Eliminatorias Sudamericanas (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Brasil",
+		"Ranking Equipo 2": 5,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Eliminatorias Sudamericanas (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Eliminatorias Sudamericanas (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Costa Rica",
+		"Ranking Equipo 2": 52,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa América (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Brasil",
+		"Ranking Equipo 2": 5,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 4,
+		"Competición": "Copa América (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa América (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Panamá",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso Internacional (2024)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 14,
+		"Equipo 2": "Sudáfrica",
+		"Ranking Equipo 2": 60,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Corea del Sur",
+		"Ranking Equipo 1": 25,
+		"Equipo 2": "República Checa",
+		"Ranking Equipo 2": 40,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 30,
+		"Equipo 2": "Bosnia y Herzegovina",
+		"Ranking Equipo 2": 64,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 17,
+		"Equipo 2": "Paraguay",
+		"Ranking Equipo 2": 41,
+		"Gol Equipo 1": 4,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Qatar",
+		"Ranking Equipo 1": 56,
+		"Equipo 2": "Suiza",
+		"Ranking Equipo 2": 19,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Brasil",
+		"Ranking Equipo 1": 6,
+		"Equipo 2": "Marruecos",
+		"Ranking Equipo 2": 7,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Haiti",
+		"Ranking Equipo 1": 83,
+		"Equipo 2": "Escocia",
+		"Ranking Equipo 2": 42,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Australia",
+		"Ranking Equipo 1": 27,
+		"Equipo 2": "Turquía",
+		"Ranking Equipo 2": 22,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Alemania",
+		"Ranking Equipo 1": 10,
+		"Equipo 2": "Curazao",
+		"Ranking Equipo 2": 82,
+		"Gol Equipo 1": 7,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Países Bajos",
+		"Ranking Equipo 1": 8,
+		"Equipo 2": "Japón",
+		"Ranking Equipo 2": 18,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Costa de Marfil",
+		"Ranking Equipo 1": 30,
+		"Equipo 2": "Ecuador",
+		"Ranking Equipo 2": 23,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 13,
+		"Equipo 2": "Alemania",
+		"Ranking Equipo 2": 9,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Alemania",
+		"Ranking Equipo 1": 9,
+		"Equipo 2": "Finlandia",
+		"Ranking Equipo 2": 75,
+		"Gol Equipo 1": 4,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Alemania",
+		"Ranking Equipo 1": 9,
+		"Equipo 2": "Ghana",
+		"Ranking Equipo 2": 65,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Suiza",
+		"Ranking Equipo 1": 19,
+		"Equipo 2": "Alemania",
+		"Ranking Equipo 2": 10,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 4,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Corea del Sur",
+		"Ranking Equipo 1": 23,
+		"Equipo 2": "Costa de Marfil",
+		"Ranking Equipo 2": 30,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 4,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Egipto",
+		"Ranking Equipo 1": 29,
+		"Equipo 2": "Costa de Marfil",
+		"Ranking Equipo 2": 30,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa Africana de Naciones (2026)"
+	},
+	{
+		"Equipo 1": "Costa de Marfil",
+		"Ranking Equipo 1": 30,
+		"Equipo 2": "Burkina Faso",
+		"Ranking Equipo 2": 62,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Africana de Naciones (2026)"
+	},
+	{
+		"Equipo 1": "Gabón",
+		"Ranking Equipo 1": 85,
+		"Equipo 2": "Costa de Marfil",
+		"Ranking Equipo 2": 30,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 3,
+		"Competición": "Copa Africana de Naciones (2026)"
+	},
+	{
+		"Equipo 1": "Paises Bajos",
+		"Ranking Equipo 1": 7,
+		"Equipo 2": "Japón",
+		"Ranking Equipo 2": 17,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Japón",
+		"Ranking Equipo 1": 17,
+		"Equipo 2": "Islandia",
+		"Ranking Equipo 2": 74,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Inglaterra",
+		"Ranking Equipo 1": 4,
+		"Equipo 2": "Japón",
+		"Ranking Equipo 2": 17,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Escocia",
+		"Ranking Equipo 1": 41,
+		"Equipo 2": "Japón",
+		"Ranking Equipo 2": 17,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Corea del Sur",
+		"Ranking Equipo 1": 24,
+		"Equipo 2": "Japón",
+		"Ranking Equipo 2": 17,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Suecia",
+		"Ranking Equipo 1": 36,
+		"Equipo 2": "Túnez",
+		"Ranking Equipo 2": 54,
+		"Gol Equipo 1": 5,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Bélgica",
+		"Ranking Equipo 1": 9,
+		"Equipo 2": "Túnez",
+		"Ranking Equipo 2": 54,
+		"Gol Equipo 1": 5,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Austria",
+		"Ranking Equipo 1": 21,
+		"Equipo 2": "Túnez",
+		"Ranking Equipo 2": 54,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 28,
+		"Equipo 2": "Túnez",
+		"Ranking Equipo 2": 54,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Haití",
+		"Ranking Equipo 1": 87,
+		"Equipo 2": "Túnez",
+		"Ranking Equipo 2": 54,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Costa de Marfil",
+		"Ranking Equipo 1": 31,
+		"Equipo 2": "Ecuador",
+		"Ranking Equipo 2": 28,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Ecuador",
+		"Ranking Equipo 1": 28,
+		"Equipo 2": "Guatemala",
+		"Ranking Equipo 2": 97,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Ecuador",
+		"Ranking Equipo 1": 28,
+		"Equipo 2": "Arabia Saudita",
+		"Ranking Equipo 2": 59,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Paises Bajos",
+		"Ranking Equipo 1": 7,
+		"Equipo 2": "Ecuador",
+		"Ranking Equipo 2": 28,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Marruecos",
+		"Ranking Equipo 1": 6,
+		"Equipo 2": "Ecuador",
+		"Ranking Equipo 2": 28,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Alemania",
+		"Ranking Equipo 1": 8,
+		"Equipo 2": "Curazao",
+		"Ranking Equipo 2": 83,
+		"Gol Equipo 1": 7,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Curazao",
+		"Ranking Equipo 1": 83,
+		"Equipo 2": "Aruba",
+		"Ranking Equipo 2": 189,
+		"Gol Equipo 1": 4,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Escocia",
+		"Ranking Equipo 1": 41,
+		"Equipo 2": "Curazao",
+		"Ranking Equipo 2": 83,
+		"Gol Equipo 1": 4,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Jamaica",
+		"Ranking Equipo 1": 72,
+		"Equipo 2": "Curazao",
+		"Ranking Equipo 2": 83,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Eliminatorias Concacaf (2026)"
+	},
+	{
+		"Equipo 1": "Bermudas",
+		"Ranking Equipo 1": 167,
+		"Equipo 2": "Curazao",
+		"Ranking Equipo 2": 83,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 7,
+		"Competición": "Eliminatorias Concacaf (2026)"
+	},
+	{
+		"Equipo 1": "Francia",
+		"Ranking Equipo 1": 2,
+		"Equipo 2": "Senegal",
+		"Ranking Equipo 2": 17,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Francia",
+		"Ranking Equipo 1": 2,
+		"Equipo 2": "República de Irlanda del Norte",
+		"Ranking Equipo 2": 71,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Francia",
+		"Ranking Equipo 1": 2,
+		"Equipo 2": "Costa de Marfil",
+		"Ranking Equipo 2": 31,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Colombia",
+		"Ranking Equipo 1": 12,
+		"Equipo 2": "Francia",
+		"Ranking Equipo 2": 2,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 3,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Irak",
+		"Ranking Equipo 1": 60,
+		"Equipo 2": "Noruega",
+		"Ranking Equipo 2": 27,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 4,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Irak",
+		"Ranking Equipo 1": 60,
+		"Equipo 2": "Venezuela",
+		"Ranking Equipo 2": 48,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 2,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "España",
+		"Ranking Equipo 1": 3,
+		"Equipo 2": "Irak",
+		"Ranking Equipo 2": 60,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Andorra",
+		"Ranking Equipo 1": 172,
+		"Equipo 2": "Irak",
+		"Ranking Equipo 2": 60,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Portugal",
+		"Ranking Equipo 1": 9,
+		"Equipo 2": "RD Congo",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Portugal",
+		"Ranking Equipo 1": 9,
+		"Equipo 2": "Nigeria",
+		"Ranking Equipo 2": 25,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Portugal",
+		"Ranking Equipo 1": 9,
+		"Equipo 2": "Chile",
+		"Ranking Equipo 2": 49,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 13,
+		"Equipo 2": "Portugal",
+		"Ranking Equipo 2": 9,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 2,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Portugal",
+		"Ranking Equipo 2": 9,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Uzbekistán",
+		"Ranking Equipo 1": 54,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 3,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Paises Bajos",
+		"Ranking Equipo 1": 7,
+		"Equipo 2": "Uzbekistán",
+		"Ranking Equipo 2": 54,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 29,
+		"Equipo 2": "Uzbekistán",
+		"Ranking Equipo 2": 54,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Uzbekistán",
+		"Ranking Equipo 1": 54,
+		"Equipo 2": "Irán",
+		"Ranking Equipo 2": 21,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Uzbekistán",
+		"Ranking Equipo 1": 54,
+		"Equipo 2": "Egipto",
+		"Ranking Equipo 2": 27,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Colombia",
+		"Ranking Equipo 1": 12,
+		"Equipo 2": "Costa Rica",
+		"Ranking Equipo 2": 51,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Colombia",
+		"Ranking Equipo 1": 12,
+		"Equipo 2": "Francia",
+		"Ranking Equipo 2": 2,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 3,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Croacia",
+		"Ranking Equipo 1": 15,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Venezuela",
+		"Ranking Equipo 1": 48,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 6,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Dinamarca",
+		"Ranking Equipo 1": 20,
+		"Equipo 2": "RD Congo",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "RD Congo",
+		"Ranking Equipo 1": 43,
+		"Equipo 2": "Jamaica",
+		"Ranking Equipo 2": 71,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Clasificatoria para el Mundial de Futbol"
+	},
+	{
+		"Equipo 1": "Botsuana",
+		"Ranking Equipo 1": 147,
+		"Equipo 2": "RD Congo",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 3,
+		"Competición": "Copa Africana de Naciones (2026)"
+	},
+	{
+		"Equipo 1": "Senegal",
+		"Ranking Equipo 1": 19,
+		"Equipo 2": "RD Congo",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Africana de Naciones (2026)"
+	},
+	{
+		"Equipo 1": "Suiza",
+		"Ranking Equipo 1": 17,
+		"Equipo 2": "Bosnia y Herzegovina",
+		"Ranking Equipo 2": 65,
+		"Gol Equipo 1": 4,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Qatar",
+		"Ranking Equipo 1": 56,
+		"Equipo 2": "Suiza",
+		"Ranking Equipo 2": 17,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Suiza",
+		"Ranking Equipo 1": 17,
+		"Equipo 2": "Australia",
+		"Ranking Equipo 2": 26,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Suiza",
+		"Ranking Equipo 1": 17,
+		"Equipo 2": "Jordania",
+		"Ranking Equipo 2": 72,
+		"Gol Equipo 1": 4,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Noruega",
+		"Ranking Equipo 1": 22,
+		"Equipo 2": "Suiza",
+		"Ranking Equipo 2": 17,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 29,
+		"Equipo 2": "Qatar",
+		"Ranking Equipo 2": 56,
+		"Gol Equipo 1": 6,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 29,
+		"Equipo 2": "Bosnia y Herzegovina",
+		"Ranking Equipo 2": 65,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 29,
+		"Equipo 2": "República de Irlanda",
+		"Ranking Equipo 2": 54,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 29,
+		"Equipo 2": "Túnez",
+		"Ranking Equipo 2": 57,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Qatar",
+		"Ranking Equipo 1": 61,
+		"Equipo 2": "Suiza",
+		"Ranking Equipo 2": 17,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Suiza",
+		"Ranking Equipo 1": 17,
+		"Equipo 2": "Australia",
+		"Ranking Equipo 2": 26,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Suiza",
+		"Ranking Equipo 1": 17,
+		"Equipo 2": "Jordania",
+		"Ranking Equipo 2": 72,
+		"Gol Equipo 1": 4,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Noruega",
+		"Ranking Equipo 1": 22,
+		"Equipo 2": "Suiza",
+		"Ranking Equipo 2": 17,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Suiza",
+		"Ranking Equipo 1": 17,
+		"Equipo 2": "Alemania",
+		"Ranking Equipo 2": 9,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 4,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 31,
+		"Equipo 2": "República de Irlanda",
+		"Ranking Equipo 2": 57,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 31,
+		"Equipo 2": "Uzbekistán",
+		"Ranking Equipo 2": 54,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 31,
+		"Equipo 2": "Túnez",
+		"Ranking Equipo 2": 56,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 31,
+		"Equipo 2": "Islandia",
+		"Ranking Equipo 2": 74,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 2,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Canadá",
+		"Ranking Equipo 1": 31,
+		"Equipo 2": "Guatemala",
+		"Ranking Equipo 2": 97,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "República Checa",
+		"Ranking Equipo 1": 43,
+		"Equipo 2": "Sudáfrica",
+		"Ranking Equipo 2": 60,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 12,
+		"Equipo 2": "Sudáfrica",
+		"Ranking Equipo 2": 60,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Jamaica",
+		"Ranking Equipo 1": 71,
+		"Equipo 2": "Sudáfrica",
+		"Ranking Equipo 2": 60,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Sudáfrica",
+		"Ranking Equipo 1": 60,
+		"Equipo 2": "Nicaragua",
+		"Ranking Equipo 2": 131,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 12,
+		"Equipo 2": "Corea del Sur",
+		"Ranking Equipo 2": 24,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Corea del Sur",
+		"Ranking Equipo 1": 24,
+		"Equipo 2": "República Checa",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa Mundial de la FIFA (2026)"
+	},
+	{
+		"Equipo 1": "Corea del Sur",
+		"Ranking Equipo 1": 24,
+		"Equipo 2": "El Salvador",
+		"Ranking Equipo 2": 100,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "Corea del Sur",
+		"Ranking Equipo 1": 24,
+		"Equipo 2": "Trinidad y Tobago",
+		"Ranking Equipo 2": 102,
+		"Gol Equipo 1": 5,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "República Checa",
+		"Ranking Equipo 1": 43,
+		"Equipo 2": "Guatemala",
+		"Ranking Equipo 2": 97,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "República Checa",
+		"Ranking Equipo 1": 43,
+		"Equipo 2": "Kosovo",
+		"Ranking Equipo 2": 78,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "República Checa",
+		"Ranking Equipo 1": 43,
+		"Equipo 2": "Dinamarca",
+		"Ranking Equipo 2": 20,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 2,
+		"Competición": "Eliminatorias Mundial (2009)"
+	},
+	{
+		"Equipo 1": "República Checa",
+		"Ranking Equipo 1": 43,
+		"Equipo 2": "República de Irlanda",
+		"Ranking Equipo 2": 54,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 2,
+		"Competición": "Eliminatorias Mundial (2009)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 12,
+		"Equipo 2": "Serbia",
+		"Ranking Equipo 2": 40,
+		"Gol Equipo 1": 5,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 12,
+		"Equipo 2": "Australia",
+		"Ranking Equipo 2": 26,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 12,
+		"Equipo 2": "Ghana",
+		"Ranking Equipo 2": 65,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso (2026)"
+	},
+	{
+		"Equipo 1": "México",
+		"Ranking Equipo 1": 12,
+		"Equipo 2": "Bélgica",
+		"Ranking Equipo 2": 10,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso (2026)"
+	}
+]

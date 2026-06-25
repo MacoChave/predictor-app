@@ -1,0 +1,182 @@
+[
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 1,
+		"Competición": "Copa América (Fase de Grupos)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Panamá",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa América (Fase de Grupos)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Bolivia",
+		"Ranking Equipo 2": 84,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Copa América (Fase de Grupos)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Brasil",
+		"Ranking Equipo 2": 5,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 1,
+		"Competición": "Amistoso Internacional"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 5,
+		"Competición": "Amistoso Internacional"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "México",
+		"Ranking Equipo 2": 14,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 0,
+		"Competición": "Concacaf Nations League (Final)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Jamaica",
+		"Ranking Equipo 2": 55,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 1,
+		"Competición": "Concacaf Nations League (Semifinal)"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Trinidad y Tobago",
+		"Ranking Equipo 2": 96,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Concacaf Nations League"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Trinidad y Tobago",
+		"Ranking Equipo 2": 96,
+		"Gol Equipo 1": 3,
+		"Gol Equipo 2": 0,
+		"Competición": "Concacaf Nations League"
+	},
+	{
+		"Equipo 1": "Estados Unidos",
+		"Ranking Equipo 1": 11,
+		"Equipo 2": "Alemania",
+		"Ranking Equipo 2": 16,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 3,
+		"Competición": "Amistoso Internacional"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Bolivia",
+		"Ranking Equipo 2": 84,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 2,
+		"Competición": "Eliminatorias Sudamericanas (2025)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Argentina",
+		"Ranking Equipo 2": 1,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Eliminatorias Sudamericanas (2025)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Venezuela",
+		"Ranking Equipo 2": 44,
+		"Gol Equipo 1": 2,
+		"Gol Equipo 2": 1,
+		"Competición": "Eliminatorias Sudamericanas (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Ecuador",
+		"Ranking Equipo 2": 31,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Eliminatorias Sudamericanas (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Brasil",
+		"Ranking Equipo 2": 5,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Eliminatorias Sudamericanas (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Uruguay",
+		"Ranking Equipo 2": 15,
+		"Gol Equipo 1": 0,
+		"Gol Equipo 2": 0,
+		"Competición": "Eliminatorias Sudamericanas (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Costa Rica",
+		"Ranking Equipo 2": 52,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa América (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Brasil",
+		"Ranking Equipo 2": 5,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 4,
+		"Competición": "Copa América (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Colombia",
+		"Ranking Equipo 2": 12,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 2,
+		"Competición": "Copa América (2024)"
+	},
+	{
+		"Equipo 1": "Paraguay",
+		"Ranking Equipo 1": 52,
+		"Equipo 2": "Panamá",
+		"Ranking Equipo 2": 43,
+		"Gol Equipo 1": 1,
+		"Gol Equipo 2": 0,
+		"Competición": "Amistoso Internacional (2024)"
+	}
+]
