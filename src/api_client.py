@@ -50,12 +50,14 @@ class FootballAPIClient:
             raise FootballAPIError(f"El archivo de Dropbox no es JSON válido: {exc}")
 
         teams_set = set()
+        comps_set = set()
         self.team_rankings = {}
         for match in self.encuentros:
             t1 = match.get("Equipo 1")
             t2 = match.get("Equipo 2")
             r1 = match.get("Ranking Equipo 1")
             r2 = match.get("Ranking Equipo 2")
+            comp = match.get("Competición")
 
             if t1:
                 teams_set.add(t1)
@@ -65,8 +67,11 @@ class FootballAPIClient:
                 teams_set.add(t2)
                 if r2 is not None:
                     self.team_rankings[t2] = r2
+            if comp:
+                comps_set.add(comp)
 
         self.unique_teams = sorted(list(teams_set))
+        self.unique_competitions = sorted(list(comps_set))
         self.team_to_id = {name: i + 1 for i, name in enumerate(self.unique_teams)}
         self.id_to_team = {i + 1: name for i, name in enumerate(self.unique_teams)}
 

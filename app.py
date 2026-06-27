@@ -24,9 +24,9 @@ def index():
     try:
         c = get_client()
         teams = c.unique_teams
-        return render_template("index.html", teams=teams)
+        return render_template("index.html", teams=teams, competitions=c.unique_competitions, rankings=c.team_rankings)
     except FootballAPIError as exc:
-        return render_template("index.html", teams=[], error=str(exc))
+        return render_template("index.html", teams=[], competitions=[], rankings={}, error=str(exc))
 
 
 @app.route("/predict", methods=["POST"])
@@ -37,21 +37,21 @@ def predict():
     try:
         c = get_client()
     except FootballAPIError as exc:
-        return render_template("index.html", teams=[], error=str(exc))
+        return render_template("index.html", teams=[], competitions=[], rankings={}, error=str(exc))
 
     if not team_a_name or not team_b_name:
-        return render_template("index.html", teams=c.unique_teams, error="Selecciona dos equipos.")
+        return render_template("index.html", teams=c.unique_teams, competitions=c.unique_competitions, rankings=c.team_rankings, error="Selecciona dos equipos.")
 
     if team_a_name == team_b_name:
-        return render_template("index.html", teams=c.unique_teams, error="Selecciona dos equipos distintos.")
+        return render_template("index.html", teams=c.unique_teams, competitions=c.unique_competitions, rankings=c.team_rankings, error="Selecciona dos equipos distintos.")
 
     results_a = c.search_teams(team_a_name)
     results_b = c.search_teams(team_b_name)
 
     if not results_a:
-        return render_template("index.html", teams=c.unique_teams, error=f"Equipo '{team_a_name}' no encontrado.")
+        return render_template("index.html", teams=c.unique_teams, competitions=c.unique_competitions, rankings=c.team_rankings, error=f"Equipo '{team_a_name}' no encontrado.")
     if not results_b:
-        return render_template("index.html", teams=c.unique_teams, error=f"Equipo '{team_b_name}' no encontrado.")
+        return render_template("index.html", teams=c.unique_teams, competitions=c.unique_competitions, rankings=c.team_rankings, error=f"Equipo '{team_b_name}' no encontrado.")
 
     team_a = results_a[0]
     team_b = results_b[0]
@@ -96,9 +96,9 @@ def refresh():
     try:
         client = FootballAPIClient()
         c = client
-        return render_template("index.html", teams=c.unique_teams, info="Datos recargados desde Dropbox.")
+        return render_template("index.html", teams=c.unique_teams, competitions=c.unique_competitions, rankings=c.team_rankings, info="Datos recargados desde Dropbox.")
     except FootballAPIError as exc:
-        return render_template("index.html", teams=[], error=str(exc))
+        return render_template("index.html", teams=[], competitions=[], rankings={}, error=str(exc))
 
 
 if __name__ == "__main__":

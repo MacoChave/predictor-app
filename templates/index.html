@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Predictor Copa Mundial 2026</title>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       font-family: 'Segoe UI', system-ui, sans-serif;
       background: #212428;
@@ -17,6 +25,7 @@
       justify-content: center;
       padding: 2rem 1rem;
     }
+
     .card {
       background: #212428;
       border-radius: 20px;
@@ -25,6 +34,7 @@
       max-width: 520px;
       box-shadow: 8px 8px 16px #15171a, -8px -8px 16px #2d3136;
     }
+
     .badge {
       display: inline-block;
       background: #212428;
@@ -38,6 +48,7 @@
       border-radius: 99px;
       margin-bottom: 1rem;
     }
+
     h1 {
       font-size: 1.7rem;
       font-weight: 800;
@@ -45,11 +56,13 @@
       line-height: 1.2;
       margin-bottom: 0.4rem;
     }
+
     .subtitle {
       color: #00a86b;
       font-size: 0.9rem;
       margin-bottom: 2rem;
     }
+
     .error {
       background: #212428;
       box-shadow: inset 4px 4px 8px #15171a, inset -4px -4px 8px #2d3136;
@@ -60,6 +73,7 @@
       font-size: 0.9rem;
       margin-bottom: 1.5rem;
     }
+
     .info {
       background: #212428;
       box-shadow: inset 4px 4px 8px #15171a, inset -4px -4px 8px #2d3136;
@@ -70,6 +84,7 @@
       font-size: 0.9rem;
       margin-bottom: 1.5rem;
     }
+
     .teams-row {
       display: grid;
       grid-template-columns: 1fr 40px 1fr;
@@ -77,6 +92,7 @@
       align-items: end;
       margin-bottom: 2rem;
     }
+
     .vs {
       color: #ffd700;
       font-weight: 900;
@@ -85,6 +101,7 @@
       padding-bottom: 0.6rem;
       text-shadow: 2px 2px 4px #15171a, -2px -2px 4px #2d3136;
     }
+
     label {
       display: block;
       font-size: 0.78rem;
@@ -95,7 +112,11 @@
       margin-bottom: 0.8rem;
       margin-left: 0.5rem;
     }
-    .search-wrap { position: relative; }
+
+    .search-wrap {
+      position: relative;
+    }
+
     .search-wrap input[type="text"] {
       width: 100%;
       padding: 0.8rem 1rem;
@@ -108,9 +129,11 @@
       box-shadow: inset 4px 4px 8px #15171a, inset -4px -4px 8px #2d3136;
       transition: all 0.3s ease;
     }
-    .search-wrap input[type="text"]:focus { 
+
+    .search-wrap input[type="text"]:focus {
       box-shadow: inset 6px 6px 10px #15171a, inset -6px -6px 10px #2d3136;
     }
+
     select {
       width: 100%;
       padding: 0.6rem;
@@ -124,8 +147,20 @@
       max-height: 160px;
       box-shadow: inset 4px 4px 8px #15171a, inset -4px -4px 8px #2d3136;
     }
-    select option { background: #212428; padding: 0.5rem; border-radius: 6px; margin-bottom: 2px; }
-    select option:checked { background: #15171a; color: #00a86b; font-weight: bold; }
+
+    select option {
+      background: #212428;
+      padding: 0.5rem;
+      border-radius: 6px;
+      margin-bottom: 2px;
+    }
+
+    select option:checked {
+      background: #15171a;
+      color: #00a86b;
+      font-weight: bold;
+    }
+
     button[type="submit"] {
       width: 100%;
       padding: 1rem;
@@ -140,31 +175,149 @@
       box-shadow: 6px 6px 12px #15171a, -6px -6px 12px #2d3136;
       transition: all 0.2s ease;
     }
-    button[type="submit"]:hover { color: #00cf84; }
-    button[type="submit"]:active { 
+
+    button[type="submit"]:hover {
+      color: #00cf84;
+    }
+
+    button[type="submit"]:active {
       box-shadow: inset 4px 4px 8px #15171a, inset -4px -4px 8px #2d3136;
       color: #008756;
     }
+
     .footer {
       margin-top: 2rem;
       font-size: 0.85rem;
       text-align: center;
     }
-    .footer a { 
+
+    .footer a {
       display: inline-block;
-      color: #00a86b; 
-      text-decoration: none; 
+      color: #00a86b;
+      text-decoration: none;
       padding: 0.6rem 1.2rem;
       border-radius: 12px;
       box-shadow: 4px 4px 8px #15171a, -4px -4px 8px #2d3136;
       transition: all 0.2s ease;
     }
-    .footer a:hover { 
+
+    .footer a:hover {
       box-shadow: inset 3px 3px 6px #15171a, inset -3px -3px 6px #2d3136;
       color: #00cf84;
     }
+
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(5px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    .modal-content {
+      background: #212428;
+      border-radius: 20px;
+      padding: 2rem;
+      width: 100%;
+      max-width: 600px;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 8px 8px 16px #15171a, -8px -8px 16px #2d3136;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .modal-header h2 {
+      font-size: 1.4rem;
+      color: #fff;
+    }
+
+    .close-btn {
+      background: transparent;
+      border: none;
+      color: #ff6b82;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      margin-bottom: 0.4rem;
+      font-size: 0.8rem;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      background: #212428;
+      border: none;
+      border-radius: 12px;
+      color: #e8f5e9;
+      font-size: 0.85rem;
+      box-shadow: inset 4px 4px 8px #15171a, inset -4px -4px 8px #2d3136;
+      outline: none;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .json-output {
+      width: 100%;
+      height: 120px;
+      padding: 1rem;
+      background: #15171a;
+      border: none;
+      border-radius: 12px;
+      color: #00cf84;
+      font-family: monospace;
+      font-size: 0.85rem;
+      resize: none;
+      margin-top: 1rem;
+      box-shadow: inset 4px 4px 8px #0f1114, inset -4px -4px 8px #1b1d20;
+    }
+
+    .btn-secondary {
+      background: #212428;
+      color: #e8f5e9;
+      border: none;
+      border-radius: 12px;
+      padding: 0.8rem 1.2rem;
+      cursor: pointer;
+      box-shadow: 4px 4px 8px #15171a, -4px -4px 8px #2d3136;
+      transition: all 0.2s ease;
+      font-weight: bold;
+      width: 100%;
+      margin-top: 1rem;
+    }
+
+    .btn-secondary:hover {
+      color: #fff;
+    }
+
+    .btn-secondary:active {
+      box-shadow: inset 4px 4px 8px #15171a, inset -4px -4px 8px #2d3136;
+    }
   </style>
 </head>
+
 <body>
   <div class="card">
     <span class="badge">Mundial 2026</span>
@@ -172,10 +325,10 @@
     <p class="subtitle">Selecciona dos selecciones para ver la predicción H2H</p>
 
     {% if error %}
-      <div class="error">{{ error }}</div>
+    <div class="error">{{ error }}</div>
     {% endif %}
     {% if info %}
-      <div class="info">{{ info }}</div>
+    <div class="info">{{ info }}</div>
     {% endif %}
 
     <form method="POST" action="/predict">
@@ -186,7 +339,7 @@
             <input type="text" id="search_a" placeholder="Filtrar..." oninput="filterSelect('search_a','team_a')">
             <select name="team_a" id="team_a" size="5">
               {% for team in teams %}
-                <option value="{{ team }}">{{ team }}</option>
+              <option value="{{ team }}">{{ team }}</option>
               {% endfor %}
             </select>
           </div>
@@ -198,7 +351,7 @@
             <input type="text" id="search_b" placeholder="Filtrar..." oninput="filterSelect('search_b','team_b')">
             <select name="team_b" id="team_b" size="5">
               {% for team in teams %}
-                <option value="{{ team }}">{{ team }}</option>
+              <option value="{{ team }}">{{ team }}</option>
               {% endfor %}
             </select>
           </div>
@@ -209,14 +362,81 @@
 
     <p class="footer">
       <a href="/refresh">Recargar datos desde Dropbox</a>
+      <a href="#" onclick="openModal(); return false;" style="margin-left: 10px;">➕ Agregar Registro</a>
     </p>
   </div>
+
+  <div class="modal" id="recordModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Nuevo Registro de Partido</h2>
+        <button class="close-btn" onclick="closeModal()">×</button>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Equipo 1</label>
+          <input type="text" id="r_team1" list="team_list" placeholder="Ej. México" oninput="updateRank(1)">
+        </div>
+        <div class="form-group">
+          <label>Ranking Eq. 1</label>
+          <input type="number" id="r_rank1" placeholder="Ej. 14">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Equipo 2</label>
+          <input type="text" id="r_team2" list="team_list" placeholder="Ej. Sudáfrica" oninput="updateRank(2)">
+        </div>
+        <div class="form-group">
+          <label>Ranking Eq. 2</label>
+          <input type="number" id="r_rank2" placeholder="Ej. 60">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Goles Eq. 1</label>
+          <input type="number" id="r_goals1" placeholder="0">
+        </div>
+        <div class="form-group">
+          <label>Goles Eq. 2</label>
+          <input type="number" id="r_goals2" placeholder="0">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Competición</label>
+        <input type="text" id="r_comp" list="comp_list" placeholder="Ej. Copa Mundial de la FIFA (2026)">
+      </div>
+
+      <button class="btn-secondary" style="color: #00a86b;" onclick="generateJSON()">Generar JSON</button>
+
+      <textarea id="jsonOutput" class="json-output" readonly
+        placeholder="El JSON generado aparecerá aquí..."></textarea>
+
+      <button class="btn-secondary" onclick="copyJSON()">Copiar JSON</button>
+
+      <button class="btn-secondary" onclick="clearFields()">Limpiar campos</button>
+    </div>
+  </div>
+
+  <datalist id="team_list">
+    {% for team in teams %}
+    <option value="{{ team }}"></option>
+    {% endfor %}
+  </datalist>
+
+  <datalist id="comp_list">
+    {% for comp in competitions %}
+    <option value="{{ comp }}"></option>
+    {% endfor %}
+  </datalist>
 
   <script>
     const allOptions = {};
     ['team_a', 'team_b'].forEach(id => {
       const sel = document.getElementById(id);
-      allOptions[id] = Array.from(sel.options).map(o => ({ value: o.value, text: o.text }));
+      if (sel) {
+        allOptions[id] = Array.from(sel.options).map(o => ({ value: o.value, text: o.text }));
+      }
     });
 
     function filterSelect(inputId, selectId) {
@@ -232,6 +452,66 @@
           sel.appendChild(opt);
         });
     }
+
+    const teamRankings = {{ rankings | tojson | safe if rankings else '{}' }};
+
+    function openModal() {
+      document.getElementById('recordModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('recordModal').style.display = 'none';
+    }
+
+    function updateRank(teamNum) {
+      const teamName = document.getElementById('r_team' + teamNum).value.trim();
+      const rankInput = document.getElementById('r_rank' + teamNum);
+      if (teamRankings[teamName]) {
+        rankInput.value = teamRankings[teamName];
+      }
+    }
+
+    function generateJSON() {
+      const t1 = document.getElementById('r_team1').value.trim();
+      const t2 = document.getElementById('r_team2').value.trim();
+      const r1 = parseInt(document.getElementById('r_rank1').value);
+      const r2 = parseInt(document.getElementById('r_rank2').value);
+      const g1 = parseInt(document.getElementById('r_goals1').value);
+      const g2 = parseInt(document.getElementById('r_goals2').value);
+      const comp = document.getElementById('r_comp').value.trim();
+
+      if (!t1 || !t2 || isNaN(g1) || isNaN(g2) || !comp) {
+        alert("Por favor completa al menos los equipos, goles y la competición.");
+        return;
+      }
+
+      const record = {
+        "Equipo 1": t1,
+        "Ranking Equipo 1": isNaN(r1) ? null : r1,
+        "Equipo 2": t2,
+        "Ranking Equipo 2": isNaN(r2) ? null : r2,
+        "Gol Equipo 1": g1,
+        "Gol Equipo 2": g2,
+        "Competición": comp
+      };
+
+      document.getElementById('jsonOutput').value = JSON.stringify(record, null, '\t');
+    }
+
+    function copyJSON() {
+      const output = document.getElementById('jsonOutput');
+      if (!output.value) return;
+      output.select();
+      document.execCommand('copy');
+      alert("JSON copiado al portapapeles. Ahora pégalo en el archivo de Dropbox.");
+    }
+
+    function clearFields() {
+      ['r_team1', 'r_rank1', 'r_team2', 'r_rank2', 'r_goals1', 'r_goals2', 'r_comp', 'jsonOutput'].forEach(id => {
+        document.getElementById(id).value = '';
+      });
+    }
   </script>
 </body>
+
 </html>
