@@ -361,7 +361,7 @@
     </form>
 
     <p class="footer">
-      <a href="/refresh">Recargar datos desde Dropbox</a>
+      <a href="/refresh">Recargar datos desde MongoDB</a>
       <a href="#" onclick="openModal(); return false;" style="margin-left: 10px;">➕ Agregar Registro</a>
     </p>
   </div>
@@ -407,12 +407,7 @@
         <input type="text" id="r_comp" list="comp_list" placeholder="Ej. Copa Mundial de la FIFA (2026)">
       </div>
 
-      <button class="btn-secondary" style="color: #00a86b;" onclick="generateJSON()">Generar JSON</button>
-
-      <textarea id="jsonOutput" class="json-output" readonly
-        placeholder="El JSON generado aparecerá aquí..."></textarea>
-
-      <button class="btn-secondary" onclick="copyJSON()">Copiar JSON</button>
+      <button class="btn-secondary" style="color: #00a86b;" onclick="saveRecord()">Guardar Registro</button>
 
       <button class="btn-secondary" onclick="clearFields()">Limpiar campos</button>
     </div>
@@ -471,7 +466,7 @@
       }
     }
 
-    function generateJSON() {
+    async function saveRecord() {
       const t1 = document.getElementById('r_team1').value.trim();
       const t2 = document.getElementById('r_team2').value.trim();
       const r1 = parseInt(document.getElementById('r_rank1').value);
@@ -495,19 +490,30 @@
         "Competición": comp
       };
 
-      document.getElementById('jsonOutput').value = JSON.stringify(record, null, '\t');
-    }
-
-    function copyJSON() {
-      const output = document.getElementById('jsonOutput');
-      if (!output.value) return;
-      output.select();
-      document.execCommand('copy');
-      alert("JSON copiado al portapapeles. Ahora pégalo en el archivo de Dropbox.");
+      try {
+        const response = await fetch('/add_match', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(record)
+        });
+        
+        const result = await response.json();
+        if (response.ok) {
+          alert(result.message);
+          closeModal();
+          window.location.reload();
+        } else {
+          alert("Error: " + result.message);
+        }
+      } catch (err) {
+        alert("Error de red: " + err);
+      }
     }
 
     function clearFields() {
-      ['r_team1', 'r_rank1', 'r_team2', 'r_rank2', 'r_goals1', 'r_goals2', 'r_comp', 'jsonOutput'].forEach(id => {
+      ['r_team1', 'r_rank1', 'r_team2', 'r_rank2', 'r_goals1', 'r_goals2', 'r_comp'].forEach(id => {
         document.getElementById(id).value = '';
       });
     }

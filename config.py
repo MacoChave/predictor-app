@@ -3,8 +3,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DROPBOX_URL = os.getenv("DROPBOX_URL", "")
-
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "predictor_db")
+MONGO_COLLECTION = os.getenv("MONGO_COLLECTION", "encuentros")
 # Peso por competición — más importante = más peso en la predicción
 COMPETITION_WEIGHTS = {
     # Inglés (formato football-data.org)

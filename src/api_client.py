@@ -1,9 +1,8 @@
 import json
 import re
 import unicodedata
-import requests
-from config import DROPBOX_URL
-
+from pymongo import MongoClient
+from config import MONGO_URI, MONGO_DB_NAME, MONGO_COLLECTION
 
 class FootballAPIError(Exception):
     pass
@@ -14,14 +13,6 @@ def normalize_string(s: str) -> str:
         c for c in unicodedata.normalize('NFD', s)
         if unicodedata.category(c) != 'Mn'
     ).lower()
-
-
-def _dropbox_direct_url(url: str) -> str:
-    """Convierte un link de Dropbox compartido a URL de descarga directa."""
-    url = url.replace("dl=0", "dl=1")
-    if "dl=" not in url:
-        url += ("&dl=1" if "?" in url else "?dl=1")
-    return url
 
 
 def _strip_year(competition: str) -> str:
@@ -35,19 +26,17 @@ class FootballAPIClient:
         self._load_encuentros()
 
     def _load_encuentros(self) -> None:
-        if not DROPBOX_URL:
+        if not MONGO_URI:
             raise FootballAPIError(
-                "No se configuró DROPBOX_URL. Agrega DROPBOX_URL=<link> en el archivo .env"
+                "No se configuró MONGO_URI. Agrega MONGO_URI=<url> en el archivo .env"
             )
-        url = _dropbox_direct_url(DROPBOX_URL)
         try:
-            response = requests.get(url, timeout=15)
-            response.raise_for_status()
-            self.encuentros = response.json()
-        except requests.RequestException as exc:
-            raise FootballAPIError(f"Error al obtener encuentros.json desde Dropbox: {exc}")
-        except (json.JSONDecodeError, ValueError) as exc:
-            raise FootballAPIError(f"El archivo de Dropbox no es JSON válido: {exc}")
+            client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=5000)
+            db = client[MONGO_DB_NAME]
+            collection = db[MONGO_COLLECTION]
+            self.encuentros = list(collection.find({}, {"_id": 0}))
+        except Exception as exc:
+            raise FootballAPIError(f"Error al conectar con MongoDB o leer colección: {exc}")
 
         teams_set = set()
         comps_set = set()
@@ -137,8 +126,28 @@ class FootballAPIClient:
         return matches
 
     def reload(self) -> None:
-        """Recarga los datos desde Dropbox."""
+        """Recarga los datos desde MongoDB."""
         self._load_encuentros()
 
     def clear_cache(self) -> None:
         pass
+
+    def add_match(self, match_data: dict) -> None:
+        if not MONGO_URI:
+            raise FootballAPIError("MONGO_URI no configurado.")
+        try:
+            client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=5000)
+            db = client[MONGO_DB_NAME]
+            collection = db[MONGO_COLLECTION]
+            
+            filter_query = {
+                "Equipo 1": match_data.get("Equipo 1"),
+                "Equipo 2": match_data.get("Equipo 2"),
+                "Competición": match_data.get("Competición")
+            }
+            
+            # Upsert
+            collection.update_one(filter_query, {"$set": match_data}, upsert=True)
+            self._load_encuentros()
+        except Exception as exc:
+            raise FootballAPIError(f"Error al guardar registro en MongoDB: {exc}")

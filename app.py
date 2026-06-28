@@ -96,9 +96,22 @@ def refresh():
     try:
         client = FootballAPIClient()
         c = client
-        return render_template("index.html", teams=c.unique_teams, competitions=c.unique_competitions, rankings=c.team_rankings, info="Datos recargados desde Dropbox.")
+        return render_template("index.html", teams=c.unique_teams, competitions=c.unique_competitions, rankings=c.team_rankings, info="Datos recargados desde MongoDB.")
     except FootballAPIError as exc:
         return render_template("index.html", teams=[], competitions=[], rankings={}, error=str(exc))
+
+
+@app.route("/add_match", methods=["POST"])
+def add_match():
+    data = request.json
+    try:
+        c = get_client()
+        c.add_match(data)
+        return {"status": "success", "message": "Registro guardado correctamente."}
+    except FootballAPIError as exc:
+        return {"status": "error", "message": str(exc)}, 500
+    except Exception as exc:
+        return {"status": "error", "message": f"Error inesperado: {exc}"}, 500
 
 
 if __name__ == "__main__":
